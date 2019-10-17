@@ -1,0 +1,326 @@
+
+.welcome{
+
+	background-color: #87509c;
+	padding-top: 50px;
+	padding-bottom: 150px;
+}
+
+.welcome .navi ul{
+
+	text-transform: uppercase;
+	display: flex;
+	list-style: none;
+	float: right;
+}
+@media (max-width: 576px){
+
+     	.welcome .navi ul{
+
+     		display: block;
+     	    float: left;
+     		padding-top: 30px;
+     		margin: 0 auto;
+     		padding-left: 0;
+     		padding-bottom: 0px;
+
+     	}
+
+     }
+
+.welcome .navi li a{
+
+	text-decoration: none;
+	color: #ffffff;
+	padding-right: 18px;
+    padding-left: 18px;
+	font-size: 18px;
+}
+
+.welcome .navi li a:hover{
+
+	background-color: #643a79;
+	border-radius: 4px;
+	padding: 5px 18px 5px 18px;
+}
+.welcome .text{
+
+	text-align: center;
+	padding-top: 130px
+}
+@media (max-width: 576px){
+
+     .welcome .text{
+     padding-top: 30px;
+
+    }
+}
+
+.welcome .text h2{
+
+	font-size: 2.5em;
+    font-weight: bold;
+    color: #ffffff;
+    padding-bottom: 70px;
+
+   
+}
+
+.welcome .text a{
+
+	text-transform: uppercase;
+	text-decoration: none;
+    color: #ffffff;
+    font-size: 1.2em;
+    border-bottom: 5px solid #c55725;
+    border-radius: 5px;
+    background-color: #eb7d4b;
+    padding: 20px 80px 20px 80px;
+}
+.welcome .text a:hover{
+
+      background-color: #db7546;
+      border-bottom: 5px solid #db7546;
+      border-radius: 5px;   
+}
+
+.services{
+
+	background-color: #17c2a4;
+	padding-top: 115px;
+	padding-bottom: 150px;
+	text-align: center;
+	
+}
+
+.services .line{
+
+	display: block;
+	width: 80px;
+	height: 5px;
+	margin: 0 auto;
+	background-color:#14a58c;
+}
+
+.services .text h1{
+	padding-bottom: 20px;
+	font-weight: bold;
+    text-transform: uppercase;
+	color: #ffffff;
+}
+
+.services .text p{
+
+	color: #ffffff;
+	padding-top: 20px;
+	font-size: 1.2em;
+
+}
+
+.services .icons-text{
+      
+      color: #ffffff;
+      padding-top: 85px;
+
+
+}
+
+.services .icons-text p{
+      
+      padding-top: 20px;
+    
+
+}
+
+.services .icons-text h2{
+
+     margin-bottom: 0px;
+     text-transform: uppercase;
+     font-weight: bold;
+     font-size: 1.7em;
+	 padding-top: 30px;
+}
+ 
+.services .flag{
+
+	padding-top: 5px;
+}
+
+
+.services .gear{
+
+	padding-top: 7px;
+}
+
+.team{
+
+	background-color: #e7f1f8;
+	padding-top: 115px;
+	padding-bottom: 150px;
+	text-align: center; 
+}
+
+.team .line{
+
+	display: block;
+	width: 80px;
+	height: 5px;
+	margin: 0 auto;
+	background-color:#c8d9e5;
+}
+
+.team .text-team h1{
+	font-size: 2.5em;
+	padding-bottom: 23px;
+	font-weight: bold;
+    text-transform: uppercase;
+	color: #3c4761;
+}
+
+.team .text-team p{
+
+	color: #3c4761;
+	padding-top: 20px;
+	font-size: 1.3em;
+
+}
+
+.team .img-text h3{
+
+    color: #3c4761;
+    text-transform: uppercase;
+    font-weight: bold;
+ 
+}
+
+.team .span{
+
+	color: #48c1e9;
+	padding-bottom: 10px;
+}
+
+.team .social img{
+
+	padding-left: 8px;
+    padding-top: 30px;
+}
+
+.skills{
+
+	background-color: #ffffff;
+	padding-top: 115px;
+	padding-bottom: 150px;
+	text-align: center; 
+}
+
+.skills .line{
+
+	display: block;
+	width: 80px;
+	height: 5px;
+	margin: 0 auto;
+	background-color:#dfe8ed;
+}
+
+.skills .skills-text h1{
+	font-size: 2.5em;
+	padding-bottom: 23px;
+	font-weight: bold;
+    text-transform: uppercase;
+	color: #3c4761;
+}
+
+.skills .skills-text p{
+
+	color: #3c4761;
+	padding-top: 20px;
+	font-size: 1.3em;
+
+}
+
+.skills .percents-text h3{
+
+    color: #3c4761;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1.3em;
+    padding-top: 20px;
+ 
+}
+
+.skills img{
+
+
+    padding-top: 70px;
+}
+
+
+.portfolio{
+
+	background-color: #ffdd99;
+	padding-top: 115px;
+	padding-bottom: 150px;
+	text-align: center; 
+}
+
+.portfolio .line{
+
+	display: block;
+	width: 80px;
+	height: 5px;
+	margin: 0 auto;
+	background-color:#e5c37f;
+}
+
+.portfolio .portfolio-text h1{
+	font-size: 2.5em;
+	padding-bottom: 5px;
+	font-weight: bold;
+    text-transform: uppercase;
+	color: #393939;
+}
+
+.portfolio .portfolio-text p{
+
+	color: #393939;
+	padding-top: 20px;
+	font-size: 1.3em;
+
+}
+
+
+.portfolio .buttons{
+
+	padding-top: 44px;
+}
+
+.portfolio .buttons a{
+
+     text-decoration: none;
+     color: #ffffff;
+     padding-right: 18px;
+     padding-left: 18px;
+     border-radius: 4px;
+	 padding: 5px 18px 5px 18px;
+	 background-color: black;
+
+
+}
+
+.portfolio .gallery-text {
+
+	padding-top:60px;
+
+}
+
+.portfolio .gallery-text p{
+
+	padding-top:20px;
+
+}
+.portfolio .button{
+
+	padding-top: 40px;
+
+
+}

@@ -15,7 +15,7 @@
 	list-style: none;
 	float: right;
 }
-@media(max-width: 736px){
+@media(max-width: 536px){
 
      	.welcome .navi ul{
 
@@ -50,7 +50,8 @@
 	text-align: center;
 	padding-top: 130px
 }
-@media (max-width: 576px){
+
+@media (max-width: 768px){
 
      .welcome .text{
      padding-top: 40px;
@@ -79,7 +80,7 @@
     background-color: #eb7d4b;
     padding: 20px 80px 20px 80px;
 }
-@media(max-width: 536px){
+@media(max-width: 736px){
 
 	.welcome .text a{
 
@@ -187,6 +188,7 @@
 	background-color:#c8d9e5;
 }
 
+
 .team .text-team h1{
 	font-size: 2.5em;
 	padding-bottom: 23px;
@@ -203,11 +205,18 @@
 
 }
 
+.team .img-text{
+
+
+	padding-top: 80px;
+}
+
 .team .img-text h3{
 
     color: #3c4761;
     text-transform: uppercase;
     font-weight: bold;
+    padding-top: 35px;
  
 }
 
@@ -222,7 +231,6 @@
 	padding-left: 8px;
     padding-top: 30px;
 }
-
 .skills .container-fluid{
 
 	background-color: #ffffff;
@@ -266,10 +274,10 @@
  
 }
 
-.skills img{
+.skills  img{
 
 
-    padding-top: 70px;
+    padding-top: 60px;
 }
 
 
@@ -328,7 +336,16 @@
 .portfolio .buttons a:hover{
 
       background-color: #ffffff;
-}      
+} 
+
+@media(max-width: 1280px){
+
+	.portfolio .gallery img{
+
+		width: 235px;
+		height: 135px;
+	}
+}
 
 .portfolio .gallery-text {
 
@@ -386,6 +403,7 @@
 	background-color:#b73c6d;
 }   
 
+
 .testimonials .testimonials-text h1{
 	text-align: center;
 	font-size: 2.5em;
@@ -402,4 +420,193 @@
 	font-size: 1.3em;
 	text-align: center;
 
+}
+.testimonials .feedback{
+
+	padding-top: 25px;
+}
+
+.testimonials .feedback-text p{
+
+    font-size: 1.1em;
+    color: #ffffff;
+    font-style: italic;
+	padding-top: 50px;
+	padding-left: 60px;
+}
+
+.testimonials .feedback-text h2{
+   
+   font-weight: bold;
+   color: #ffffff;
+   text-transform: uppercase;
+   font-size: 1.2em;
+   padding-left: 60px;
+}
+
+.testimonials .span p{
+    
+    font-size: 1em;
+    font-style: normal; 
+	color: #fac996;
+    padding-top: 0;
+	padding-bottom: 40px;
+}
+@media(max-width: 1280px){
+
+    .testimonials .feedback img{
+
+    	width: 200px;
+    	height:200px;
+	
+     	}
+
+     }
+
+.touch .container-fluid{
+
+	background-color: #3c5499;
+	padding-top: 120px;
+	padding-bottom: 150px;
+	text-align: center;
+	
+}
+
+.touch .line{
+
+	display: block;
+	width: 80px;
+	height: 5px;
+	margin: 0 auto;
+	background-color:#273a71;
+}   
+
+.touch .touch-text h1{
+	
+	font-size: 2.5em;
+	padding-bottom: 20px;
+	font-weight: bold;
+    text-transform: uppercase;
+	color: #ffffff;
+}
+
+.touch .touch-text p{
+
+	color: #ffffff;
+	padding-top: 20px;
+	font-size: 1.2em;
+	text-align: center;
+
+}
+
+.touch .input{
+
+	padding-top: 60px;
+
+}
+
+.touch input, textarea{
+	background-color: #273a71;
+    color: #ffffff;
+    border-radius: 5px;
+    border: 0;
+    padding: 25px 0 25px 25px;
+    width: 100%;
+}
+
+@media(max-width: 576px){
+
+     .touch input ,textarea {
+
+     	   background-color: #273a71;
+          color: #ffffff;
+          border-radius: 5px;
+          border: 1px solid #ffffff;
+          padding: 25px 0 25px 25px;
+          width: 100%;
+
+     		
+           }
+     	}
+
+.touch .input .message{
+
+	padding-top: 30px;
+}
+
+.touch .send-button{
+
+	padding-top: 50px;
+}
+
+.touch .send-button a{
+
+	 
+	 text-decoration: none;
+     text-transform: uppercase;
+     color: #ffffff;
+     border-bottom: 3px solid #0a94c1;
+     border-radius: 5px;
+	 padding: 20px 75px 20px 75px;
+	 background-color: #30bae7;
+
+}
+
+.touch .send-button a:hover{
+
+     background-color: #2aa4cc;
+     border-bottom: 3px solid #2aa4cc;
+     border-radius: 5px;
+}      
+
+.touch .container-fluid{
+
+	background-color: #3c5499;
+	padding-top: 120px;
+	padding-bottom: 150px;
+	text-align: center;
+	
+}
+
+.footer .container-fluid{
+
+	background-color: #344b8e;
+	padding-top: 40px;
+	padding-bottom: 20px;
+	
+}
+
+
+.footer .links ul{
+   
+	display: flex;
+	list-style: none;
+    padding-left: 70px;
+}
+@media(max-width: 1280px){
+
+     	.footer .links ul{
+            
+     		display: block;
+     		padding-left: 0;
+     		
+
+     	}
+
+     }
+
+.footer .links li a{
+    font-weight: bold;
+    text-decoration: none;
+	color: #ffffff;
+	padding-right: 28px;
+    padding-left: 28px;
+	font-size: 1.3em;
+
+}
+
+.footer .links li a:hover{
+
+	color: #30bae7;
+		
 }

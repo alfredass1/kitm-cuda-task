@@ -68,6 +68,17 @@
    
 }
 
+@media (max-width: 768px){
+
+    .welcome .text h2{
+     font-size: 1.8em;
+
+
+    }
+}
+
+
+
 .welcome .text a{
 
 	text-transform: uppercase;
@@ -170,6 +181,18 @@
      font-size: 1.7em;
 	 padding-top: 30px;
 }
+
+@media(max-width: 768px){
+
+    .services .icons-text h2{ 
+        font-size: 1.2em; 
+  
+
+     		
+     	}
+
+     }
+
  
 .services .flag{
 
@@ -230,18 +253,48 @@
     padding-top: 35px;
  
 }
+@media(min-width: 1024px){
 
+    .team .img-text h3{ 
+        font-size: 1.5em; 
+  
+
+     		
+     	}
+
+     }
+@media(max-width: 768px){
+
+    .team h3{ 
+        font-size: 1.6em; 
+  
+
+     		
+     	}
+
+     }
 .team .span{
 
 	color: #48c1e9;
 	padding-bottom: 10px;
 }
 
-.team .social img{
+.team .social i{
 
-	padding-left: 8px;
-    padding-top: 30px;
+	border-radius: 20px;
+	height: 30px;
+	width: 30px;
+	padding-top: 5px;
+	font-size: 1.2em;
+	background-color: #bdd1df;
+	color: #ffffff;
 }
+
+  .team .social{
+
+	
+}
+
 .skills .container-fluid{
 
 	background-color: #ffffff;
@@ -275,6 +328,15 @@
 
 }
 
+@media(max-width: 768px){
+
+    .skills .skills-text p{
+
+     	   font-size: 1.2em;
+     	}
+
+     }
+
 .skills .percents-text h3{
 
     color: #3c4761;
@@ -287,10 +349,12 @@
 
 .skills  img{
 
-
+    
     padding-top: 60px;
+ 
 }
 
+              
 
 .portfolio .container-fluid{
 
@@ -364,8 +428,7 @@
 
 	.portfolio .gallery img{
 
-		width: 235px;
-		height: 135px;
+		max-width: 100%;
 	}
 }
 
@@ -476,17 +539,21 @@
     padding-top: 0;
 	padding-bottom: 40px;
 }
-@media(max-width: 1280px){
 
-    .testimonials .feedback img{
+.testimonials .feedback img{
 
-    	width: 200px;
-    	height:200px;
+    	padding-left: 50px;
+    	padding-top: 50px;
 	
      	}
 
-     }
+ @media(max-width: 768px){
 
+     .testimonials .feedback img{	     
+          padding-left: 20px;
+
+           }
+     	}    	  
 .touch .container-fluid{
 
 	background-color: #3c5499;
@@ -632,11 +699,11 @@
     padding-left: 70px;
 }
 
-@media(max-width: 536px){
+@media(max-width: 636px){
 
      	.footer .links ul{
             
-     		flex-flow:column;
+     		display: block;
      		padding: 0;
 
 
@@ -669,7 +736,7 @@
  @media(max-width: 800px){
           
   .footer .links ul{ 
-	padding-left: 30px;
+	padding-left: 40px;
 	
 
      	}
@@ -678,8 +745,9 @@
 
     @media(max-width: 1024px){
           
-  .footer .links ul{ 
-	padding-left: 30px;
+  .footer .links li a{ 
+	padding-left: 10px;
+
 	
 
      	}

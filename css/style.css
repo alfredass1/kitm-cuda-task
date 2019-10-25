@@ -1,3 +1,5 @@
+/*  Welcome section start */
+
 .welcome .container-fluid{
 
 	background-color: #87509c;
@@ -14,13 +16,14 @@
 	list-style: none;
 	float: right;
 }
+
 @media(max-width: 536px){
 
      	.welcome .navi ul{
 
      		flex-flow:column;
      	    float: left;
-     		padding-top: 30px;
+     		padding-top: 50px;
      		margin: 0 auto;
      		padding-left: 0;
      		padding-bottom: 0;
@@ -28,7 +31,16 @@
      	}
 
      }
+@media(max-width: 768px){
 
+     	.welcome .navi ul{
+
+     		padding-top: 20px;
+     		
+
+     	}
+
+     }
 .welcome .navi li a{
 
     text-decoration: none;
@@ -44,6 +56,7 @@
 	border-radius: 4px;
 	padding: 5px 18px 5px 18px;
 }
+
 .welcome .text{
 
 	text-align: center;
@@ -76,8 +89,6 @@
 
     }
 }
-
-
 
 .welcome .text a{
 
@@ -117,13 +128,15 @@
      	}
 
      }
-
 .welcome .text a:hover{
 
       background-color: #db7546;
       border-bottom: 5px solid #db7546;
       border-radius: 5px;   
 }
+/*  Welcome section end */
+
+/*  services section start */
 
 .services .container-fluid{
 
@@ -186,24 +199,22 @@
 
     .services .icons-text h2{ 
         font-size: 1.2em; 
-  
-
-     		
+    		
      	}
 
      }
-
- 
 .services .flag{
 
 	padding-top: 5px;
 }
-
-
 .services .gear{
 
 	padding-top: 7px;
 }
+
+/*  services section end */
+
+/*  team section start */
 
 .team .container-fluid{
 
@@ -221,7 +232,6 @@
 	margin: 0 auto;
 	background-color:#c8d9e5;
 }
-
 
 .team .text-team h1{
 	font-size: 2.5em;
@@ -245,12 +255,19 @@
 	padding-top: 80px;
 }
 
+.team .img-text p{
+
+    font-size: 1em;
+	
+}
+
 .team .img-text h3{
 
     color: #3c4761;
     text-transform: uppercase;
     font-weight: bold;
     padding-top: 35px;
+
  
 }
 @media(min-width: 1024px){
@@ -266,7 +283,18 @@
 @media(max-width: 768px){
 
     .team h3{ 
-        font-size: 1.6em; 
+        font-size: 1em; 
+  
+
+     		
+     	}
+
+     }
+
+ @media(max-width: 768px){
+
+   .team .img-text .span p{ 
+        font-size: 0.9em; 
   
 
      		
@@ -278,7 +306,6 @@
 	color: #48c1e9;
 	padding-bottom: 10px;
 }
-
 .team .social i{
 
 	border-radius: 20px;
@@ -289,11 +316,9 @@
 	background-color: #bdd1df;
 	color: #ffffff;
 }
+/*  team section end */
 
-  .team .social{
-
-	
-}
+/*  skills section start */
 
 .skills .container-fluid{
 
@@ -336,7 +361,6 @@
      	}
 
      }
-
 .skills .percents-text h3{
 
     color: #3c4761;
@@ -354,8 +378,9 @@
  
 }
 
-              
+/*  skills section end */ 
 
+/*  portfolio section start */                   
 .portfolio .container-fluid{
 
 	background-color: #ffdd99;
@@ -389,7 +414,6 @@
 
 }
 
-
 .portfolio .buttons{
 
 	padding-top: 44px;
@@ -405,10 +429,7 @@
      border-radius: 4px;
 	 padding: 5px 18px 5px 18px;
 	 background-color: #ebc985;
-
-
 }
-
 @media(max-width: 1280px){
 
     .portfolio .buttons a{
@@ -444,6 +465,7 @@
 	padding-top:20px;
 
 }
+
 .portfolio .load-button{
 
 	padding-top: 20px;
@@ -471,6 +493,10 @@
      border-radius: 5px;
 }      
 
+/*  portfolio section end */     
+
+
+/*  testimonials section start */    
 
 .testimonials .container-fluid{
 
@@ -508,6 +534,7 @@
 	text-align: center;
 
 }
+
 .testimonials .feedback{
 
 	padding-top: 25px;
@@ -542,18 +569,24 @@
 
 .testimonials .feedback img{
 
-    	padding-left: 50px;
+        padding-left: 60px;
     	padding-top: 50px;
 	
      	}
 
- @media(max-width: 768px){
+ @media(min-width: 768px){
 
      .testimonials .feedback img{	     
           padding-left: 20px;
 
            }
-     	}    	  
+     	} 
+
+
+/*  testimonials section end */ 
+
+/*  touch section start */ 
+
 .touch .container-fluid{
 
 	background-color: #3c5499;
@@ -595,6 +628,7 @@
 	padding-top: 60px;
 
 }
+
 .touch .name input{
     background-color: #273a71;
     color: #ffffff;
@@ -603,6 +637,7 @@
     padding: 25px 0 25px 25px;
     width: 100%;
 }
+
 @media(max-width: 1280px){
 
      .touch .name{	     
@@ -683,6 +718,10 @@
      border-radius: 5px;
 }      
 
+/*  touch section end */
+
+/*  footer section start */
+
 .footer .container-fluid{
 
 	background-color: #344b8e;
@@ -703,7 +742,7 @@
 
      	.footer .links ul{
             
-     		display: block;
+     		flex-flow:column;
      		padding: 0;
 
 
@@ -759,3 +798,5 @@
 	color: #30bae7;
 		
 }
+
+/*  footer section end */
